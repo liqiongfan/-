@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="systemName">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>零售销售系统</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="groupName">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>58</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 30px;
+}</string>
+   </property>
+   <property name="text">
+    <string>赚赚</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="userName">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>108</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>152</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>112</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
